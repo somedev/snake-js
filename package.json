@@ -1,0 +1,26 @@
+{
+  "name": "snake-game-pwa",
+  "version": "1.0.0",
+  "description": "A modern Snake game built as a Progressive Web App",
+  "main": "game.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "moduleFileExtensions": ["js", "json"],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "setupFiles": ["./jest.setup.js"]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+} 

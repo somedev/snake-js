@@ -16,7 +16,7 @@ A modern, responsive Snake game built as a Progressive Web App (PWA) that works 
 
 ## 🚀 Live Demo
 
-[Play the game here](https://somedev.github.io/snake-game-pwa)
+[Play the game here](https://somedev.github.io/snake-js)
 
 ## 🛠️ Technologies Used
 

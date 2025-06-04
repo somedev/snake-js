@@ -31,12 +31,12 @@ A modern, responsive Snake game built as a Progressive Web App (PWA) that works 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/somedev/snake-game-pwa.git
+git clone https://github.com/somedev/snake-js.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd snake-game-pwa
+cd snake-js
 ```
 
 3. Open `index.html` in your browser or serve it using a local server:
@@ -78,7 +78,7 @@ npx serve
 
 ### Project Structure
 ```
-snake-game-pwa/
+snake-js/
 ├── index.html          # Main HTML file
 ├── style.css          # Styles
 ├── game.js            # Game logic
@@ -116,4 +116,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Project Link: [https://github.com/somedev/snake-game-pwa](https://github.com/somedev/snake-game-pwa) 
+Project Link: [https://github.com/somedev/snake-js](https://github.com/somedev/snake-js) 

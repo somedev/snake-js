@@ -1,7 +1,9 @@
 class SnakeGame {
     constructor() {
         this.initializeGame();
-        this.setupEventListeners();
+        if (typeof window !== 'undefined') {
+            this.setupEventListeners();
+        }
     }
 
     initializeGame() {
@@ -293,10 +295,9 @@ class SnakeGame {
     }
 }
 
-// Initialize the game only if we're in a browser environment
+// Initialize the game when the script loads
 if (typeof window !== 'undefined') {
-    const game = new SnakeGame();
-}
-
-// Export for testing
-export { SnakeGame }; 
+    window.addEventListener('load', () => {
+        window.snakeGame = new SnakeGame();
+    });
+} 
